@@ -84,23 +84,24 @@
     <section class="section site-portfolio">
       <div class="container">
         <div class="row mb-5 align-items-center">
-          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0">
             <h2>Hey, I'm Yassin Ait Ougard</h2>
             <p class="mb-0">College student at Fontys University of Applied Science</p>
           </div>
-          <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-12 col-lg-6 text-start text-lg-end">
+            <!-- <button onclick="myFunction('period1')">Periode 1</button>
+            <button onclick="myFunction('period2')">Periode 2</button> -->
+
             <div id="filters" class="filters">
               <a href="#" data-filter="*" class="active">All</a>
               <a href="#" data-filter=".sco">SCO</a>
               <a href="#" data-filter=".ux">UX</a>
               <a href="#" data-filter=".dev">DEV</a>
               <a href="#" data-filter=".po">PO</a>
-              <a href="#" data-filter=".photography">Photography</a>
             </div>
           </div>
         </div>
-        <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-
+        <div id="portfolio-grid" class="row no-gutter">
           <!-- SCO PRODUCTS START -->
           <div class="item sco col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="college/period-2/marketing-strategy" class="item-wrap fancybox">
@@ -202,8 +203,8 @@
             </a>
           </div>
           <!-- PO PRODUCTS END -->
-          
-          
+
+
 
           <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
             <a href="work-single.html" class="item-wrap fancybox">
@@ -264,10 +265,10 @@
           </div>
         </div>
         <div class="col-sm-6 social text-md-end">
-          <a href="#"><span class="bi bi-twitter"></span></a>
+          <!-- <a href="#"><span class="bi bi-twitter"></span></a>
           <a href="#"><span class="bi bi-facebook"></span></a>
           <a href="#"><span class="bi bi-instagram"></span></a>
-          <a href="#"><span class="bi bi-linkedin"></span></a>
+          <a href="#"><span class="bi bi-linkedin"></span></a> -->
         </div>
       </div>
     </div>
@@ -289,3 +290,19 @@
 </body>
 
 </html>
+
+<script>
+  function myFunction(period) {
+    period1 = document.querySelector("#period1");
+    period2 = document.querySelector("#period2");
+
+    if (period == period1.id) {
+      period1.style.display = "block";
+      period2.style.display = "none";
+    } else {
+      period1.style.display = "none";
+      period2.style.display = "block";
+    }
+  }
+
+</script>
