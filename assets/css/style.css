@@ -131,7 +131,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .item .item-wrap:hover:after {
-  opacity: 1;
+  opacity: 0.9;
+  background-color: black;
   visibility: visible;
 }
 
@@ -514,6 +515,19 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   color: rgb(231, 35, 35);
   display: block;
   margin: 10px 0px 10px 0px;
+}
+
+h6, h5 {
+  font-style: italic;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.h6-subtitle {
+  color: #18d26e;
+}
+
+.h5-subtitle {
+  color: #502dda;
 }
 
 
