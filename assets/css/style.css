@@ -11,12 +11,12 @@
 body {
   font-family: Maven Pro;
   color: #0d1e2d;
-    -webkit-touch-callout: none; 
+    /* -webkit-touch-callout: none; 
       -webkit-user-select: none; 
        -khtml-user-select: none; 
          -moz-user-select: none; 
           -ms-user-select: none; 
-              user-select: none; 
+              user-select: none;  */
 }
 
 a {
