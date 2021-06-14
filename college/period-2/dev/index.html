@@ -143,12 +143,14 @@
                 <div class="row mb-4 align-items-stretch">
                     <div class="col-md-8" data-aos="fade-up">
 
-                        <p>Tijdens de tweede periode heb ik functionaliteiten voor de back-end en API gebouwd dat hieronder te vinden is. 
-                        De onderbouwing voor de development stack is te vinden op <a href="/college/period-1/dev"
+                        <p>Tijdens de tweede periode heb ik functionaliteiten voor de back-end en API gebouwd dat
+                            hieronder te vinden is.
+                            De onderbouwing voor de development stack is te vinden op <a href="/college/period-1/dev"
                                 target="_blank">dev periode 1</a></p>
 
                         <h6>Data seeder recepten & evenementen</h6>
-                        <p>Voor prototyping en testen is het belangrijk dat er data is waarmee geïnteracteerd kan worden.
+                        <p>Voor prototyping en testen is het belangrijk dat er data is waarmee geïnteracteerd kan
+                            worden.
                             Het bouwen van data seeders helpt om snel en gemakkelijk de app te vullen met dummy data om
                             het een levend gevoel te geven.
                         </p>
@@ -313,8 +315,67 @@
                         <a href="#" data-featherlight="/college/period-2/dev/files/admin.gif">
                             <img src="/college/period-2/dev/files/admin.gif" alt="Image" class="img-fluid mb-2">
                         </a>
-                        <a href="#" data-featherlight="/college/period-2/dev/files/admin.png">
+                        <!-- <a href="#" data-featherlight="/college/period-2/dev/files/admin.png">
                             <img src="/college/period-2/dev/files/admin.png" alt="Image" class="img-fluid mb-2">
+                        </a> -->
+
+                        <h6>Admin omgeving rollen en permissies</h6>
+                        <p>Het beheer systeem is alleen toegankelijk voor mensen met de juiste permissies. Hiervoor heb
+                            ik verschillende soorten rollen & permissie levels aangemaakt die gekoppeld kunnen worden
+                            aan een gebruiker om toegang te geven tot deze omgeving. Deze rollen zijn onder andere
+                            superuser & staff. De permissies zijn onder andere toegang geven tot het aanpassen van
+                            bepaalde data van het platform of het inzien van gebruikersgegevens. Verder is het mogelijk
+                            om vanuit hier de permissies van de deelnemers op het platform aan te passen, zoals de
+                            mogelijkheid om recepten toe te voegen weghalen.
+                        </p>
+
+                        <a href="https://github.com/YassinAO/graphene_simac_backend/blob/66db8d0e2f302069b8525575e470a5524e3995fe/users/models.py"
+                            target="_blank" class="readmore mb-2">Commit</a>
+
+                        <a href="#" data-featherlight="/college/period-2/dev/files/permission.gif">
+                            <img src="/college/period-2/dev/files/permission.gif" alt="Image" class="img-fluid mb-2">
+                        </a>
+                        <a href="#" data-featherlight="/college/period-2/dev/files/permission.png">
+                            <img src="/college/period-2/dev/files/permission.png" alt="Image" class="img-fluid mb-2">
+                        </a>
+
+                        <h6>Inrichten/opvullen van beheeromgeving</h6>
+                        <p>Om ervoor te zorgen dat de beheerder data visueel kan inzien en manipuleren vanuit de
+                            beheeromgeving
+                            moeten deze eerst geregistreerd worden via Django admin. Dit is een stuk code waar
+                            aangegeven wordt welke data geregistreerd wordt. Hierin kan vervolgens bepaald worden op
+                            welke wijze (visueel) deze data wordt weergegeven in de beheeromgeving. Dit is onder andere
+                            een tabel, filter, lijst, etc...
+                        </p>
+
+                        <a href="https://github.com/YassinAO/graphene_simac_backend/blob/main/users/admin.py"
+                            target="_blank" class="readmore mb-2">Commit</a>
+
+                        <a href="https://github.com/YassinAO/graphene_simac_backend/blob/main/recipes/admin.py"
+                            target="_blank" class="readmore mb-2">Commit</a>
+
+                        <a href="#" data-featherlight="/college/period-2/dev/files/registerrecipe.png">
+                            <img src="/college/period-2/dev/files/registerrecipe.png" alt="Image"
+                                class="img-fluid mb-2">
+                        </a>
+
+                        <h6>Data manipulatie vanuit beheeromgeving</h6>
+                        <p>Zoals eerder aangegeven heeft de beheerder toegang tot de data en de manipulatie hiervan als
+                            de juist permissies zijn gekoppeld. Door models te creëren in de back-end kan ik de data van
+                            een object manipuleren. Deze model is geregistreerd via Django admin om dit in de
+                            beheeromgeving weer te geven. Door middel van een CRUD (Create, Read, Update, Delete) is
+                            data manipulatie mogelijk.</p>
+
+                        <a href="https://github.com/YassinAO/graphene_simac_backend/blob/main/events/models.py"
+                            target="_blank" class="readmore mb-2">Commit</a>
+
+
+                        <a href="#" data-featherlight="/college/period-2/dev/files/dataevent.png">
+                            <img src="/college/period-2/dev/files/dataevent.png" alt="Image" class="img-fluid mb-2">
+                        </a>
+
+                        <a href="#" data-featherlight="/college/period-2/dev/files/dataevent.gif">
+                            <img src="/college/period-2/dev/files/dataevent.gif" alt="Image" class="img-fluid mb-2">
                         </a>
 
 
@@ -334,7 +395,8 @@
                         <div class="sticky-content">
                             <h3 class="h3">Vervolgstap</h3>
                             <ul class="list-unstyled list-line mb-5">
-                                <li><a href="#" target="_blank">De applicatie wordt getoetst met doelgroep op usability.</a></li>
+                                <li><a href="#" target="_blank">De applicatie wordt getoetst met doelgroep op
+                                        usability.</a></li>
                             </ul>
 
                             <h3 class="h3">Bijlage(s)</h3>
