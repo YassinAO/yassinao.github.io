@@ -111,9 +111,6 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   z-index: 3;
   transform: translateY(-50%);
   color: #fff;
-  opacity: 0;
-  visibility: hidden;
-  margin-top: 20px;
   transition: .3s all ease;
 }
 
@@ -136,7 +133,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   transform: scale(1.05);
 }
 
-.item .item-wrap:hover:after {
+.item .item-wrap:after {
   opacity: 0.9;
   background-color: black;
   visibility: visible;
@@ -518,7 +515,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 .hint {
-  color: rgb(231, 35, 35);
+  color: rgb(243, 166, 78);
   display: block;
   margin: 10px 0px 10px 0px;
 }
@@ -530,6 +527,10 @@ h6, h5 {
 
 h6 {
   margin-top: 50px;
+}
+
+.no-margin { 
+  margin-top: 0px !important;
 }
 
 .h6-subtitle {
