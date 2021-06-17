@@ -8,8 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
 body {
-  font-family: Maven Pro;
+  font-family: 'Maven Pro', sans-serif;
   color: #0d1e2d;
     /* -webkit-touch-callout: none; 
       -webkit-user-select: none; 
@@ -28,9 +30,9 @@ a:hover {
   color: #000;
 }
 
-h1, h2, h3, h4, h5, h6, .font-heading {
+/* h1, h2, h3, h4, h5, h6, .font-heading {
   font-family: "Raleway", sans-serif;
-}
+} */
 
 .section {
   padding: 7rem 0;
