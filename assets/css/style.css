@@ -385,8 +385,15 @@ a:hover {
 
 /* Custom Navbar */
 .custom-navbar {
-  padding-top: 50px;
+  padding: 25px 0px 25px 0px;
   width: 100%;
+  -webkit-box-shadow: 0 5px 6px -6px rgb(184, 184, 184);
+  -moz-box-shadow: 0 5px 6px -6px rgb(184, 184, 184);
+       box-shadow: 0 5px 6px -6px rgb(184, 184, 184);
+}
+
+.text-right {
+  text-align: right;
 }
 
 @media (max-width: 780px) {
@@ -396,9 +403,9 @@ a:hover {
   }
 }
 
-.custom-navbar .navbar-brand {
+/* .custom-navbar .navbar-brand {
   font-size: 1.7rem;
-}
+} */
 
 /* Burger */
 .burger {
