@@ -550,6 +550,11 @@ h6 {
   color: #502dda;
 }
 
+.active-period {
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+  }
 
 /******************* Timeline Demo - 8 *****************/
 .main-timeline8{overflow:hidden;position:relative}
