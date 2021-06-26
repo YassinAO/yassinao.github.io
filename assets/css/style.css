@@ -556,6 +556,22 @@ h6 {
   background: #000;
   }
 
+.sco {
+  color: cyan;
+}
+
+.ux {
+  color: gold;
+}
+
+.dev {
+  color: greenyellow;
+}
+
+.po {
+  color: plum;
+}
+
 /******************* Timeline Demo - 8 *****************/
 .main-timeline8{overflow:hidden;position:relative}
 .main-timeline8:after,.main-timeline8:before{content:"";display:block;width:100%;clear:both}
